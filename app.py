@@ -17,3 +17,4 @@ def index():
     cur.close()
     conn.close()
     return f'PostgreSQL version: {db_version}'
+
